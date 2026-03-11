@@ -124,38 +124,29 @@ padding:10px ;
  
  
 }
-.start{
+.post2{
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 120px;
-  margin-top: 30px;
- 
-}
-
-.post2{
-  width: 800px;
-  height: 140px;
-  display: flex;
-
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-   box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
-  
- 
 }
 
   
-.post2{
+ 
+
+
+  
+.post3{
   width: 800px;
+  height: 150px;
   background: white;
   border-radius: 10px;
   padding: 20px;
    box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
    margin-top: 20px;
-   margin-left: 120px;
-   
 
+  
+
+  
 }
 .box{
   display: flex;
@@ -164,10 +155,54 @@ padding:10px ;
   
 }
 .box p{
-  font-size: 18px;
+  font-size: 20px;
   color: gray;
 }
 .box img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.icons{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.Ilist{
+  color: #0096FF;
+  font-size: 20px;
+  
+
+}
+.Ilist i{
+  margin-left: 20px;
+}
+.
+.Ilist button{
+  background: #0096FF;
+  border: none;
+  margin-left: 670px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: white;
+
+}
+.last-post{
+   width: 800px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
+  background: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 120px;
+  
+  
+ 
+}
+
+
+.last-img img{
   width: 40px;
   height: 40px;
   border-radius: 50%;
