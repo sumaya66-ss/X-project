@@ -167,10 +167,10 @@ padding:10px ;
   margin-top: 30px;
   margin-left: 40px;
 }
-.Ilist{
+
+  .Ilist{
   color: #0096FF;
   font-size: 20px;
-  
 
 }
 .Ilist i{
@@ -186,26 +186,38 @@ padding:10px ;
   color: white;
 
 }
+
 .last-post{
-   width: 800px;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
+}
+.lastimg{
+  width: 800px;
+  height: 600px;
   background: white;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-left: 120px;
-  
-  
- 
+  padding: 20px;
+   box-shadow: 0 0 10px rgb(0, 0, 0,0.1);
+   margin-top: 20px;
+}.lastimg p{
+  font-size: 15px;
+  color: gray;
 }
-
-
-.last-img img{
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+.texs{
+  margin-top: 15px;
+  font-size: 22px;
+}
+.last-img{
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 160px;
+}
+.Ilist2{
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  margin-top: 55px;
 }
 
 
