@@ -163,7 +163,13 @@ padding:10px ;
   height: 40px;
   border-radius: 50%;
 }
+.box i{
+  color: #0096FF;
+}
 .icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 30px;
   margin-left: 40px;
 }
@@ -177,14 +183,11 @@ padding:10px ;
   margin-left: 20px;
 }
 .
-.Ilist button{
-  background: #0096FF;
-  border: none;
-  margin-left: 670px;
-  font-size: 18px;
-  border-radius: 20px;
-  color: white;
+.btn5{
 
+  background-color: #0096FF;
+  color: white;
+ 
 }
 
 .last-post{
@@ -206,20 +209,25 @@ padding:10px ;
 }
 .texs{
   margin-top: 15px;
+  margin-left: 50px;
   font-size: 22px;
+
 }
 .last-img{
   width: 100%;
   margin-top: 15px;
   margin-left: 160px;
 }
-.Ilist2{
+.Ilist2 {
   display: flex;
   justify-content: space-between;
   color: grey;
   margin-top: 55px;
 }
-
+.Ilist2 p{
+  display: flex;
+  margin-right: 130px;
+}
 
 .right{
   background-color: ;
@@ -282,11 +290,14 @@ padding:10px ;
   display: block;
   font-weight: bold;
 }
+.name i{
+  color: #0096FF;
+}
 .username{
   color: gray;
   font-size: small;
 }
-button{
+.mbutton{
   background: black;
   color: white;
   border-radius: 20px;
@@ -321,14 +332,15 @@ button{
 .list{
 padding: 10px 0;
 
+
 }
 .para{
   padding-bottom: 10px;
+  
 }
-.para i{
-  margin-left: 150px;
-  align-items: end;
-}
+
+
+
 .list h4{
   margin-top: 10px;
 }
